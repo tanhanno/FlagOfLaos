@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.container-flag {
+  padding: 20px;
+  max-width: 1000px;
+}
+.red-stripe {
+  background-color: darkred;
+  height: 150px;
+}
+.blue-stripe {
+  background-color: darkblue;
+  height: 250px;
+}
+.white-circle {
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: relative;
+  left: 400px;
+  top: 25px;
+}
+p {
+  text-align: center;
+  padding: 50px;
+  font-size: 25px;
+  padding-top: 80px;
+}
+.red-stripe p {
+  color: white;
+  padding-top: 60px;
+}
